@@ -1,2 +1,2 @@
 # Aneuploid_embryo
-scripts for Reconstituting the single-cell transcriptome atlas of human aneuploid blastocysts
+Scripts for Reconstituting the single-cell transcriptome atlas of human aneuploid blastocysts
