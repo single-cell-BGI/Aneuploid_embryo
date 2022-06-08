@@ -20,7 +20,7 @@ gene.anno = read.table("gencode.v19.chr_patch_hapl_scaff.annotation.txt",sep="\t
 rownames(gene.anno) = gene.anno$gene_id
 gene.anno = gene.anno[rownames(filelist[[1]])[1:63568],]
 gene.add.name = rownames(filelist[[1]])
-gene.add.name[1:67049] = gene.anno$gene.id
+gene.add.name[1:63568] = gene.anno$gene.id
 
 TPM = cbind("Gene_ID" = gene.add.name,TPM)
 count$Gene_ID = TPM$Gene_ID
